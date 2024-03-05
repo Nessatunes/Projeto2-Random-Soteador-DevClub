@@ -1,8 +1,10 @@
 // Obtém uma referência para o botão pelo seu ID / mapeando o botao
 const sortearButton = document.getElementById('sortearButton');
 
+
 // Adiciona um manipulador de eventos para o evento 'click'
 sortearButton.addEventListener('click', generateNumber);
+
 
 // Definição da função generateNumber
 function generateNumber() {
@@ -12,5 +14,9 @@ function generateNumber() {
     const result = Math.floor(Math.random() * (max - min + 1)) + min;   
 
     alert(result);  
+
+     // Limpar os campos de entrada
+     //min = '';
+    // max = ''; pesquisar não deu certo limpar os campos
 }
   
