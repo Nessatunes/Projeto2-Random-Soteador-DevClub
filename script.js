@@ -1,9 +1,13 @@
 // Obtém uma referência para o botão pelo seu ID / mapeando o botao
 const sortearButton = document.getElementById('sortearButton');
+const resetButton = document.getElementById('resetButton');
+
 
 
 // Adiciona um manipulador de eventos para o evento 'click'
 sortearButton.addEventListener('click', generateNumber);
+resetButton.addEventListener('click', resetNumber);
+
 
 
 // Definição da função generateNumber
@@ -18,7 +22,11 @@ function generateNumber() {
 
     alert(result); 
 
-    }     
+    }    
+    function resetNumber() {
+        min.value = '';
+        max.value = '';
+    }
 
      // Limpar os campos de entrada
      //min = '';

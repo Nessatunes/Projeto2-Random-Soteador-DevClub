@@ -8,9 +8,9 @@
 <h3>✔️Tecnologias</h3>
 <p>Este projeto foi desenvolvido com:</p>
 
-![alt text](html.png)
-![alt text](css.png)
-![alt text](js.png)
+![alt text](./Assets/html.png)
+![alt text](./Assets/css.png)
+![alt text](./Assets/js.png)
 
 <p>Foto do projeto:</p> <br>
-<img src="foto.png">
+<img src="./Assets/foto.png">

@@ -25,7 +25,8 @@ main{
 main img {
     width: 300px;
     height: 200px;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     
 }
 main h2{
@@ -33,13 +34,13 @@ main h2{
       font-size: 20px;
       line-height: 37px;
       color: #ffffff;
-      margin: 30px auto;
+      margin: 20px auto;
 }
 main input{
     background:rgba(255,255,255,0.25); 
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 14px;
-    width: 150px;
+    width: 130px;
     height: 40px;
     padding-left: 20px;
     font-weight: 500;
@@ -52,12 +53,12 @@ main input{
 input::-webkit-inner-spin-button { 
     -webkit-appearance: none;
 }
-main button{
-    width: 150px;
+main button{   
+    width: 130px;
     height: 40px;
     border: none;
     border-radius: 14px;
-    margin: 20px auto;
+    margin: 20px auto;    
     background-color:#AEC346 ;
     color: #ffffff;
     font-weight: 700;
